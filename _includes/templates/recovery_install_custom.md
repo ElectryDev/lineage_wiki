@@ -2,7 +2,7 @@
 {% when 'custom' %}
 ## Unlocking your bootloader
 
-1. Root your device by following [this]({{ site.data.devices[page.device].unlock_bootloader_method[1] }}) guide.
+1. Unlock your bootloader by following [this]({{ site.data.devices[page.device].unlock_bootloader_method[1] }}) guide.
 {% endcase %}
 
 ## Installing a custom recovery using `fastboot`
