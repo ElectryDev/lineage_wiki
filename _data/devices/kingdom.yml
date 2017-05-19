@@ -18,7 +18,7 @@ gpu: Adreno 330
 has_recovery_partition: true
 height: 156 mm
 image: kingdom.png
-install_method: TODO
+install_method: custom
 kernel: android_kernel_lenovo_msm8974
 maintainers: [electry]
 name: Vibe Z2 Pro
@@ -40,6 +40,8 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32 GB
 tree: android_device_lenovo_kingdom
 type: phone
+twrp_source: ['custom', 'https://forum.xda-developers.com/k920/development/recovery-team-win-recovery-project-3-0-t3454739']
+unlock_bootloader_method: ['custom', 'https://forum.xda-developers.com/k920/how-to/guide-unlock-bootloader-lenovo-vibe-z2-t3114307']
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]
